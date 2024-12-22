@@ -1,12 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CareerTrail - README</title>
-</head>
-<body>
   <h1>CareerTrail</h1>
   <p>CareerTrail is a GenerativeAI web application designed to analyze resumes and provide career guidance, skill recommendations, mock interview questions, and career path suggestions. It utilizes modern React features like hooks and leverages Bootstrap for a responsive and interactive UI APIs AND many more.</p>
 
@@ -102,6 +94,5 @@ CareerTrail/
 
   <h3>Contact</h3>
   <p>For further queries, reach out to us at <strong>support@careertrail.com</strong>.</p>
-</body>
-</html>
+
 
