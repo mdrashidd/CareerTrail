@@ -1,0 +1,179 @@
+body {
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 0%;
+  background-color: #c5c6c7;
+  background-size: cover;  
+  color: white;
+}
+.main-outside-div {
+  background-color: #0b0c10;
+  padding: 15px;
+  position: fixed;
+}
+
+.section-left {
+  background-color: #0b0c10;
+  width: 100%;
+  padding: 10px;
+}
+
+.section-left h3 {
+  text-align: center;
+}
+
+.form-submit {
+  padding: 0px 10px;
+}
+
+.section-right {
+  background-color: #0b0c10;
+  width: 100%;
+  padding: 10px;
+}
+
+.section-right h3 {
+  text-align: center;
+}
+
+.llm-container {
+  position: relative;
+  height: 75vh;
+}
+
+.empty-response-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-response {
+  border: 3px solid black;
+  padding: 12px;
+}
+
+.message-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #0b0c10;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message-container img {
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.message-container-text {
+  
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.llm-responses {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+.input-field {
+  position: absolute;
+  bottom: 0px;
+  width: 98%;
+}
+
+.input-field form {
+  width: 100%;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+}
+
+.upload-icon-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #0b0d0e;
+  padding: 10px 5px;
+  border-radius: 15px;
+}
+
+.submit-btn:disabled {
+  background-color: #090b0c;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 15px;
+}
+
+.upload-instructions {
+  padding: 10px;
+  text-align: justify;
+  opacity: 0.3;
+}
+
+.feature-choice {
+  padding: 10px;
+}
+
+.analysis-para {
+  white-space: pre-wrap;
+}
+
+.Carousel-container {
+  /* height: 36vh; */
+  background-color: #f0f0f0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.carousel-item {
+  color: black;
+  padding: 0px 30px;
+  height: 50%;
+}
+
+.carousel-item h5 {
+  text-align: start;
+}
+
+.carousel-item p {
+  text-align: justify;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.carousel-indicators {
+  background-color: black;
+  display: none;
+}
