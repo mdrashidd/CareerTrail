@@ -150,12 +150,12 @@ const Home = () => {
                     <Navbar className="bg-body-tertiary ">
                         <Container className='d-flex justify-content-center' >
                             <Navbar.Brand href="#home" >
-                                <img
+                            <img
                                     alt="logo"
                                     src="./CareerTrail_logo.jpg"
                                     width={100}
                                     // height={30}
-                                    className="d-block align-middle rounded-circle"
+                                    className="d-block align-middle rounded-circle shadow-box"
                                 />
                             </Navbar.Brand>
                         </Container>

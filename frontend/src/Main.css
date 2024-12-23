@@ -9,6 +9,15 @@ body {
   color: white;
   overflow-x: hidden;
 }
+.shadow-box {
+  border-radius: 50%;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.5); 
+  transition: box-shadow 0.3s ease;
+}
+.shadow-box:hover {
+  box-shadow: 0px 30px 25px rgba(40, 86, 173, 0.4); 
+}
+
 .main-outside-div {
   background-color: #0b0c10;
   padding: 15px;
@@ -146,14 +155,14 @@ body {
 
 .Carousel-container {
   /* height: 36vh; */
-  background-color: #f0f0f0;
+  background-color:transparent;
   /* display: flex;
   justify-content: center;
   align-items: center; */
 }
 
 .carousel-item {
-  color: black;
+  color: white;
   padding: 0px 30px;
   height: 50%;
 }
@@ -173,7 +182,7 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .carousel-indicators {

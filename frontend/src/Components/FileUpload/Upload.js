@@ -7,8 +7,19 @@ const Upload = ({ feature1, feature2, feature3, feature4, handleFileChange, hand
 
     return (
         <div className="section-left">
-            {/* Add content for the first section */}
-            <h3>CareerTrail</h3>
+            {}
+            <h3
+      style={{
+        fontFamily: "MONTON,BLOCKLETTER,GABO",
+        fontSize: '36px',
+        background: 'linear-gradient(to right, #fff, #2c3e50)',
+        WebkitBackgroundClip: 'text',
+        color: '#224e87',
+        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
+      }}
+    >
+      CareerTrail
+    </h3>
             <div className='upload-container' >
                 <div className='upload ' >
                 <div >

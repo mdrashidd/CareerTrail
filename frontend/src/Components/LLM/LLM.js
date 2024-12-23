@@ -56,7 +56,7 @@ const LLM = ({ showSpinner, singleResponse }) => {
                                     <h3>Recommended Certificates: </h3>
                                     <ReactMarkdown >{singleResponse.RecommendedCertificates}</ReactMarkdown>
                                     <br></br>
-                                    <h3>Relevent Projects: </h3>
+                                    <h3>Relevant Projects: </h3>
                                     <ReactMarkdown >{singleResponse.ReleventProjects}</ReactMarkdown>
                                     <Button variant="success" onClick={exportToPDF} className="w-50 submit-btn btn-shadow">
                                       Download as PDF
