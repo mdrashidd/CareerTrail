@@ -1,12 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CareerTrail - README</title>
-</head>
-<body>
   <h1>CareerTrail</h1>
   <p>CareerTrail is a GenerativeAI web application designed to analyze resumes and provide career guidance, skill recommendations, mock interview questions, and career path suggestions. It utilizes modern React features like hooks and leverages Bootstrap for a responsive and interactive UI APIs AND many more.</p>
 
@@ -89,11 +81,6 @@ CareerTrail/
   </ul>
 
   <h2>Customization</h2>
-  <h3>Logo and Branding</h3>
-  <p>Replace the logo file at <code>public/CareerTrail_logo.jpg</code> with your desired logo.</p>
-
-  <h3>Styles</h3>
-  <p>Edit <code>src/Main.css</code> to modify styles and improve the UI.</p>
 
   <h2>License</h2>
   <p>This project is licensed under the MIT License.</p>
@@ -102,6 +89,5 @@ CareerTrail/
 
   <h3>Contact</h3>
   <p>For further queries, reach out to us at <strong>support@careertrail.com</strong>.</p>
-</body>
-</html>
+
 
