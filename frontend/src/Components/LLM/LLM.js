@@ -34,7 +34,7 @@ const LLM = ({ showSpinner, singleResponse }) => {
     };
 
     return (
-        <div className="section-right custom-shadow">
+        <div id='details' className="section-right custom-shadow">
             <div className='llm-container' >
                 {singleResponse?.length === 0 ? (
                     showSpinner ? (<div className='d-flex justify-content-start align-items-center' ><Spinner animation="grow" />Loading...</div>)

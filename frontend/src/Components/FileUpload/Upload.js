@@ -26,23 +26,27 @@ const Upload = ({ feature1, feature2, feature3, feature4, handleFileChange, hand
                         <Row className="feature-choice" >
                             <Col xs={6} className="mb-3">
                                 <Button className="w-100 submit-btn btn-shadow"
+                                href='#details'
                                     onClick={feature1}
                                     disabled={btnDisabled}
                                 >Analyse Resume</Button>
                             </Col>
                             <Col xs={6} className="mb-3">
                                 <Button className="w-100 submit-btn btn-shadow"
-                                    onClick={feature2}
+                                    href='#details'
+                                   onClick={feature2}
                                     disabled={btnDisabled}>Mock Interview Questions</Button>
                             </Col>
                             <Col xs={6} className="mb-3">
                                 <Button className="w-100 submit-btn btn-shadow"
-                                    onClick={feature3}
+                                    href='#details'
+                                   onClick={feature3}
                                     disabled={btnDisabled}>Career path suggestion</Button>
                             </Col>
                             <Col xs={6} className="mb-3">
                                 <Button className="w-100 submit-btn btn-shadow"
-                                    onClick={feature4}
+                                    href='#details'
+                                   onClick={feature4}
                                     disabled={btnDisabled}>Skills Recommendation</Button>
                             </Col>
                         </Row>
