@@ -1,6 +1,5 @@
-
-  <h1>CareerTrail</h1>
-  <p>CareerTrail is a GenerativeAI web application designed to analyze resumes and provide career guidance, skill recommendations, mock interview questions, and career path suggestions. It utilizes modern React features like hooks and leverages Bootstrap for a responsive and interactive UI APIs AND many more.</p>
+<h1>CareerTrail</h1>
+  <p>CareerTrail is a GenerativeAI web application designed to analyze resumes and provide career guidance, skill recommendations, mock interview questions, and career path suggestions. It utilizes modern React features like hooks and leverages Bootstrap for a responsive and interactive UI, APIs AND many more.</p>
 
   <h2>Features</h2>
   <ul>
@@ -16,12 +15,13 @@
     <li><strong>Node.js (v14 or later)</strong></li>
     <li><strong>npm (v6 or later)</strong> or <strong>yarn</strong></li>
   </ul>
-
+  
+  <h3>LIVE DEMO<h3>
+  <p>Click here to try it out.</p>
   <h2>Installation</h2>
   <ol>
     <li>Clone the repository:
-      <pre><code>git clone https://github.com/your-repo/CareerTrail.git
-cd CareerTrail</code></pre>
+      <pre><code>git clone https://github.com/mdrashidd/CareerTrail</code></pre>
     </li>
     <li>Install dependencies:
       <pre><code>npm install</code></pre>
@@ -30,20 +30,27 @@ cd CareerTrail</code></pre>
       <pre><code>npm start</code></pre>
     </li>
   </ol>
-  <p>The app will be accessible at <code>http://localhost:3000</code></p>
+  <p>The web application will be accessible at <code>http://localhost:3000</code></p>
 
   <h2>Project Structure</h2>
   <pre>
 CareerTrail/
-├── public/                # Public assets
-├── src/                   # Source files
-│   ├── Components/        # Reusable components
-│   │   ├── FileUpload/    # File upload functionality
-│   │   ├── LLM/           # LLM response handling
-│   ├── utils/             # Utility functions
-│   ├── Main.css           # Main stylesheet
-│   ├── App.js             # Root component
-│   ├── Home.js            # Main page
+├── backend/ 
+|   ├── Features
+|   ├── routes
+|   ├── uploads
+|   ├── utilities
+|   ├── .env
+|   ├── index.js
+|
+├── frontend/ 
+|   ├── public/            # Public assets
+|   ├── src                # Source files
+|       ├── Components     # Reusable components
+|            ├── LLM
+|       ├── App.js         # Root component
+|       ├── Home.js
+|       ├── Main.css
 ├── package.json           # Dependencies and scripts
 ├── README.md              # Documentation
   </pre>
@@ -65,22 +72,20 @@ CareerTrail/
         <li>Skill Recommendations</li>
       </ul>
     </li>
-    <li>View the generated results dynamically displayed in the interface.</li>
+    <li>Scroll down to view the generated results dynamically displayed in the interface.</li>
+    <li>Download the generated response in PDF form.</li>
   </ol>
-
-  <h2>Configuration</h2>
-  <h3>API Endpoint</h3>
-  <p>Update the API endpoint in <code>src/utils/Endpoint.js</code> as required:</p>
-  <pre><code>export const endpoint = 'http://your-api-url';</code></pre>
 
   <h2>Dependencies</h2>
   <ul>
+    <li><strong>Node.js</strong> - Backend framework</li>
+    <li><strong>Gemma2-9B-IT</strong> - AI Model</li>
+    <li><strong>GROQ-API</strong> - API Key</li>
     <li><strong>React.js</strong> - Frontend framework</li>
     <li><strong>React-Bootstrap</strong> - UI components</li>
     <li><strong>Axios</strong> - HTTP client for API calls</li>
   </ul>
 
-  <h2>Customization</h2>
 
   <h2>License</h2>
   <p>This project is licensed under the MIT License.</p>
@@ -88,6 +93,15 @@ CareerTrail/
   <hr>
 
   <h3>Contact</h3>
-  <p>For further queries, reach out to us at <strong>support@careertrail.com</strong>.</p>
-
-
+  <p>For further queries, reach out to us :<br>
+    <strong><a href="https://www.linkedin.com/in/ananya-sharma-37b8a7296/" target="main" rel="noopener noreferrer"  >
+                                          ANANYA SHARMA 
+                                        </a></strong>
+                                        <br>
+                                        <strong><a href="https://www.linkedin.com/in/ananya-singh-28947528b/" target="main" rel="noopener noreferrer"  >
+                                          ANANYA SINGH 
+                                        </a></strong>
+                                        <br>
+                                        <strong><a href="https://www.linkedin.com/in/mohammad-rashid-576697264/" target="main" rel="noopener noreferrer"  >
+                                          MOHAMMAD RASHID
+                                        </a></strong></p>
